@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>landing page3</title>
+	<link href="https://fonts.googleapis.com/css?family=Adamina&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+
+	<div class="container">
+		<nav class="navbar">
+
+			<div class="header-1"> 
+				<h1 class="headify" >WIX <span>.com</span></h1>
+			</div>
+
+			<div class="btn-control">
+				<button class="btn">Start now</button>
+			</div>
+
+			
+
+		</nav>
+
+
+		<main class="main-content">
+
+			<div class="content">
+					<div  class="dots">
+
+						
+
+				. . .
+				
+			</div>
+
+			<div class="main-header">
+
+				<h2>The Leader in</h2>
+				<h2>Website Creation</h2>
+
+				
+			</div>
+			
+
+			<div class="button">
+				<button class="btn btn-main">
+					Start Now
+				</button>
+				
+			</div>
+				
+			</div>
+
+			
+
+		</main>
+
+
+
+
+		
+	</div>
+
+	<style type="text/css">
+
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body{
+				color:#fff;
+				height: 100vh;
+				overflow-y: hidden;
+		}
+		.container{
+
+			/*background: #333;*/
+		
+			background-image: url("https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+
+			height: 100vh;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+
+		}
+
+		.navbar{
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			height:60px;
+
+		}
+        .main-content{
+        	display: flex;
+        	justify-content: center;
+        	align-items: center;
+        	text-align: center;
+        	flex-direction: column;
+        	height: 100vh;
+        	
+        	/*background: #000;*/
+        	/*width: 100%;*/
+        }
+
+        .header-1{
+        	padding: 15px;
+        }
+
+        .btn-control{
+        	padding: 15px;
+        	margin-right: 20px;
+        }
+
+      .btn{
+        	padding:7px;
+        	background: transparent;
+        	color:#fff;
+        	border-radius: 15px;
+        	transition: 1s;
+
+        	cursor: pointer;
+        }
+
+        .btn-control .btn:hover{
+        	background: #333;
+        	color:#fff;
+        }
+        .btn-main{
+        	margin: 15px;
+        	padding: 15px;
+        	background: coral;
+        	color:#fff;
+        	border:none;
+        }
+
+        .content{
+        	border: 2px solid #fff;
+        	width: 60%;
+        	height:50%;
+        	
+        }
+
+        .dots{
+        	width: 100%;
+        	/*margin: 10px;*/
+        	border-bottom: 3px solid #fff;
+        	
+        	padding: 10px;
+        	display: flex;
+        	font-weight: bolder;
+        	
+
+        }
+        .main-header{
+        	display: flex;
+        	justify-content: center;
+        	align-items: center;
+        	text-align: center;
+        	flex-direction: column;
+        	padding: 15px;
+        	line-height:2rem;
+        	font-family: 'Adamina', serif;
+        }
+
+        .headify{
+        	font-family: 'Adamina', serif;
+        }
+
+        @media (max-width: 650px) {
+
+        	.content{
+        		width: 95vw;
+        	}
+
+        	.main-header{
+        		font-size: 14px;
+        	}
+        }
+	</style>
+	
+</body>
+</html>
